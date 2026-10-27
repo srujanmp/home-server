@@ -1,0 +1,8 @@
+tunnel: __TUNNEL_ID__
+credentials-file: __CREDS__
+ingress:
+  - hostname: home.solulu.dev
+    service: http://localhost:8096
+  - hostname: get-home.solulu.dev
+    service: http://localhost:8080
+  - service: http_status:404
